@@ -6,6 +6,20 @@
 }
 
 body{
-    background-color: #9949b4;
+    background-color: var(--cor-fundo) ;
     margin: 0;
+}
+
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+    padding: 1em;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container imagem, .container frase{
+    padding: 1em;
 }
